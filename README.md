@@ -1,24 +1,43 @@
 # Gym-Git-Exercise-Solutions
-History of terminal git exercises codes
 
-User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (dev)
-$ history
-    1  mkdir "Gym Git Exercise"
-    2  cd "Gym Git Exercise"/
-    3  git init
-    4  echo Hello World! > index.html
-    5  echo style.css
-    6  echo script.js
-   7  git branch -M main
-   8  git add .
-   9  git remote add origin https://github.com/ngenziwingenzi/Gym-Git-Exercise-Solutions.git
-   10  git commit -m "initial commit"
-   11  git push -u origin main
-   12  git pull origin main --rebase
-   13  code .
-   14  git push -u origin main
-   15  git branch dev
-   16  git checkout dev
-   17  git checkout -b test
-   18  git checkout dev
-   19  git branch -d test
+This project contains the terminal Git commands used during practice.
+
+## History of Commands Used
+
+```bash
+# Create and enter project directory
+mkdir "Gym Git Exercise"
+cd "Gym Git Exercise"/
+
+# Initialize Git
+git init
+
+# Create files
+echo Hello World! > index.html
+echo style.css
+echo script.js
+
+# Set main branch
+git branch -M main
+
+# Stage and commit
+git add .
+git commit -m "initial commit"
+
+# Add remote and push
+git remote add origin https://github.com/ngenziwingenzi/Gym-Git-Exercise-Solutions.git
+git push -u origin main
+
+# Pull with rebase
+git pull origin main --rebase
+
+# Open in VS Code
+code .
+
+# Extra Git operations
+git push -u origin main
+git branch dev
+git checkout dev
+git checkout -b test
+git checkout dev
+git branch -d test
