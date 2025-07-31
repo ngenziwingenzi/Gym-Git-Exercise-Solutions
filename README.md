@@ -68,3 +68,17 @@ $ history
    15  git stash pop stash@{0}
    16  git reset --hard
 ```
+
+## Bundle 2
+
+### Exercise 1
+
+```bash
+  145  git branch ft/bundle-2
+  146  git checkout ft/bundle-2
+  147  touch services.html
+  148  git add services.html
+  149  git commit -m "add services page"
+  150  git push
+  151  git push -u origin ft/bundle-2
+```
