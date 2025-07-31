@@ -150,7 +150,7 @@ $ history
    26  git push origin ft/faq-page
 ```
 
-### Exercise
+### Exercise 2
 
 ```bash 
 User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (main)
