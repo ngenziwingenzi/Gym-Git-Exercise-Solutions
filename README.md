@@ -114,3 +114,38 @@ $ history
    24  git push
    25  git checkout main
 ```
+
+## Bundle 3
+
+### Exercise 1
+
+```bash
+User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (ft/faq-page)
+$ history
+    1  clear
+    2  git branch ft/team-page
+    3  git checkout ft/team-page
+    4  touch team.html
+    5  git status
+    6  git add team.html
+    7  git commit -m "initial commit for team"
+    8  git push -u origin ft/team-page
+    9  git checkout main
+   10  git branch ft/contact-page
+   11  git checkout ft/team-page
+   12  git log
+   13  git checkout ft/contact-page
+   14  git cherry-pick 3ec9d39c97e2e7a438657e83249384f27a6c131e
+   15  touch contacts.html
+   16  git add contacts.html
+   17  git commit -m "added contacts "
+   18  git push -u origin ft/contact-page
+   19  git branch ft/faq-page
+   20  git checkout ft/faq-page
+   21  touch faq.html
+   22  git add faq.html
+   23  git commit -m "add frequently asked questions"
+   24  git push -u origin ft/faq-page
+   25  git revert 3ec9d39c97e2e7a438657e83249384f27a6c131e
+   26  git push origin ft/faq-page
+```
