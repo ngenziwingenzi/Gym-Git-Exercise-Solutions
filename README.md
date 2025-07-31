@@ -42,9 +42,13 @@ git checkout -b test
 git checkout dev
 git branch -d test
 
+```
+
+
 
 ### Exercise 2
 
+```bash
 User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (main)
 $ history
     1  echo "<h1>Home Page</h1>" > home.html
@@ -63,3 +67,4 @@ $ history
    14  git push -u origin main
    15  git stash pop stash@{0}
    16  git reset --hard
+```
