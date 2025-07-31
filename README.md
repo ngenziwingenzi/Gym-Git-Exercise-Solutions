@@ -149,3 +149,21 @@ $ history
    25  git revert 3ec9d39c97e2e7a438657e83249384f27a6c131e
    26  git push origin ft/faq-page
 ```
+
+### Exercise
+
+```bash 
+User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (main)
+$ history
+    1  clear
+    2  git checkout ft/faq-page
+    3  git branch ft/home-page-redesign       
+    4  git checkout main
+    5  git add home.html
+    6  git commit -m "add leader name to home page"
+    7  git push
+    8  git checkout ft/home-page-redesign     
+   12  git commit -m "add company name to home page"
+   13  git push -u origin ft/home-page-redesign
+   14  git checkout main
+```
