@@ -82,3 +82,26 @@ $ history
   150  git push
   151  git push -u origin ft/bundle-2
 ```
+
+### Exercise 2
+
+```bash
+User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (ft/service-redesign)
+$ history
+    1  git pull --set-upstream origin main
+    2  git branch ft/service-redesign
+    3  git checkout ft/service-redesign
+    4  git add services.html
+    5  git commit -m "add 3 services"
+    6  git push -u origin ft/service-redesign
+    7  git checkout main
+    8  git add service.html
+    9  git add services.html
+   10  git commit -m "add 3 old services"
+   11  git push
+   12  git checkout ft/service-redesign
+   13  git diff ft/service-redesign..main
+   14  git merge main
+   15  git add services.html
+   16  git commit -m "Merge branch 'main' into ft/service-redesign"
+```
