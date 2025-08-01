@@ -189,3 +189,20 @@ $ history
 ### Exercise 2
 
 ```bash
+User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (ft/squashing)
+$ history
+    1  git checkout -b ft/footer
+    2  git status
+    3  git add index.html
+    4  git commit -m "add footer 1 in index page"
+    5  git status
+    6  git add index.html
+    7  git commit -m "add footer 2 in index.html"
+    8  git push -u origin ft/footer
+    9  git checkout main
+   10  git branch ft/squashing
+   11  git checkout ft/squashing
+   12  git merge --squash ft/footer
+   13  git commit -m "footer changes squash"
+   14  git push -u origin ft/squashing
+```
