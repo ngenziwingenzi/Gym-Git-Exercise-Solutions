@@ -185,3 +185,7 @@ $ history
     8  git push -u origin main
    9  git push -u git-copy main
 ```
+
+### Exercise 2
+
+```bash
