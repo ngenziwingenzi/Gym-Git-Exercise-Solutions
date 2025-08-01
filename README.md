@@ -167,3 +167,21 @@ $ history
    13  git push -u origin ft/home-page-redesign
    14  git checkout main
 ```
+
+## Bundle 4 
+
+### Exercise 1
+
+```bash
+User@Uwinzinge MINGW64 ~/Desktop/The Gym/Git Practice/Gym Git Exercise (main)
+$ history
+    1  clear
+    2  git checkout main
+    3  git remote add git-copy https://github.com/ngenziwingenzi/Gym-Git-Exercise-Solutions-2.git
+    4  git status
+    5  git add home.html
+    6  git commit -m "add location on home page"
+    7  git push -u origin git-copy
+    8  git push -u origin main
+   9  git push -u git-copy main
+```
